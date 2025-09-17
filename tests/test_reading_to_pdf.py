@@ -16,8 +16,8 @@ def test_reading_to_pdf():
             print(text)
 
             if expected_word in text:
-                print(f"✅ {expected_word} найдено в PDF!")
+                print(f"✅ Словосочетание '{expected_word}' найдено в PDF!")
             else:
-                print(f"❌ {expected_word} не найдено в PDF!")
+                print(f"❌ Словосочетание '{expected_word}' не найдено в PDF!")
 
             # assert "File Details" in text
