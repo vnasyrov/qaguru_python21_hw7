@@ -1,6 +1,5 @@
 import io
 import zipfile
-from zipfile import ZipFile
 from pypdf import PdfReader
 
 from tests.test_archiving_to_zip import ZIP_PATH
