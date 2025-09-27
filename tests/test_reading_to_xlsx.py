@@ -1,29 +1,5 @@
 import io
 import zipfile
-
-from openpyxl import load_workbook
-
-from tests.test_archiving_to_zip import ZIP_PATH
-
-
-# def test_reading_to_xlsx():
-#
-#     expected_values = {(2,1): "Austen Russel"}
-#
-#     with zipfile.ZipFile(ZIP_PATH) as zip_file:  # открываем архив
-#         with zip_file.open("1mb.xlsx") as xlsx_file:  # открываем файл в архиве
-#             workbook = load_workbook(io.BytesIO(xlsx_file.read()))
-#             sheet = workbook.active
-#             print(sheet.cell(row=2, column=1).value)
-#
-#             if sheet.cell(row=2, column=1).value == "Austen Russel":
-#
-#
-#             assert "Austen Russel" in sheet.cell(row=2, column=1).value
-
-
-import io
-import zipfile
 from openpyxl import load_workbook
 from tests.test_archiving_to_zip import ZIP_PATH
 
